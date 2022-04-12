@@ -1,0 +1,21 @@
+{
+  "name": "ash-yellow-theme",
+  "displayName": "Ash Yellow Theme",
+  "description": "A carefully designed theme for exquisite viewing experience.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.66.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Ash Yellow Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ash-yellow-color-theme.json"
+      }
+    ]
+  }
+}
