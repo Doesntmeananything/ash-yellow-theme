@@ -1,6 +1,6 @@
 {
-  "name": "ash-yellow-theme",
-  "displayName": "Ash Yellow Theme",
+  "name": "yellowstone-theme",
+  "displayName": "Yellowstone Theme",
   "description": "A carefully designed theme for exquisite viewing experience.",
   "version": "0.0.1",
   "engines": {
@@ -12,9 +12,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "Ash Yellow Theme",
+        "label": "Yellowstone Theme",
         "uiTheme": "vs-dark",
-        "path": "./themes/ash-yellow-color-theme.json"
+        "path": "./themes/yellowstone-color-theme.json"
       }
     ]
   }
