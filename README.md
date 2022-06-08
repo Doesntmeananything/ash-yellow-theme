@@ -22,6 +22,10 @@
 
 To learn more about scopes and how they're used, check out the [color theme](https://code.visualstudio.com/api/extension-guides/color-theme) documentation.
 
+To learn more about customizing different parts of Visual Studio Code, check out the [theme color API](https://code.visualstudio.com/api/references/theme-color) documentation.
+
+If you're looking for additional tips, check out [this CSS-Tricks article](https://css-tricks.com/creating-a-vs-code-theme/) about creating a Visual Studio Code theme.
+
 ## Install your extension
 
 * To start using your extension with Visual Studio Code copy it into the `<user home>/.vscode/extensions` folder and restart Code.
