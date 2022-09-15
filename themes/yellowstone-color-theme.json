@@ -1,46 +1,69 @@
 {
   "name": "Yellowstone Theme",
   "colors": {
-    "editor.background": "#263238",
-    "editor.foreground": "#eeffff",
-    "activityBarBadge.background": "#007acc",
-    "sideBarTitle.foreground": "#bbbbbb"
+    "editor.background": "#1a1a1a",
+    "editor.foreground": "#c8c8c8",
+
+    "sideBar.background": "#1a1a1a",
+
+    "activityBar.background": "#1e1e1e",
+    "activityBar.foreground": "#c8c8c8",
+    "activityBar.activeBorder": "#c8c8c8",
+    "activityBarBadge.background": "#494949",
+    "activityBarBadge.foreground": "#efefef",
+
+    "titleBar.activeBackground": "#1e1e1e",
+    "titleBar.inactiveBackground": "#1a1a1a",
+
+    "editorGroupHeader.tabsBackground": "#080808",
+
+    "tab.activeBackground": "#1a1a1a",
+    "tab.activeForeground": "#efefef",
+    "tab.inactiveBackground": "#080808",
+    "tab.inactiveForeground": "#c8c8c8",
+    "tab.border": "#080808",
+    "tab.hoverBackground": "#393939",
+
+    "statusBar.background": "#1e1e1e",
+    "statusBar.foreground": "#a2a2a2",
+
+    // Scrollbar shadow is transparent to make it invisible
+    "scrollbar.shadow": "#ffffff00"
   },
   "tokenColors": [
     {
       "name": "Comment",
       "scope": ["comment", "punctuation.definition.comment"],
       "settings": {
-        "fontStyle": "italic",
-        "foreground": "#546E7A"
+        "foreground": "#7cc33f"
       }
     },
     {
       "name": "Variables",
       "scope": ["variable", "string constant.other.placeholder"],
       "settings": {
-        "foreground": "#EEFFFF"
+        "foreground": "#fad900"
       }
     },
     {
       "name": "Colors",
       "scope": ["constant.other.color"],
       "settings": {
-        "foreground": "#ffffff"
+        "foreground": "#fad900"
       }
     },
     {
       "name": "Invalid",
       "scope": ["invalid", "invalid.illegal"],
       "settings": {
-        "foreground": "#FF5370"
+        "foreground": "#d7373f"
       }
     },
     {
       "name": "Keyword, Storage",
       "scope": ["keyword", "storage.type", "storage.modifier"],
       "settings": {
-        "foreground": "#C792EA"
+        "foreground": "#c8c8c8"
       }
     },
     {
@@ -60,7 +83,7 @@
         "keyword.other.substitution"
       ],
       "settings": {
-        "foreground": "#89DDFF"
+        "foreground": "#f29423"
       }
     },
     {
@@ -80,14 +103,14 @@
         "keyword.other.special-method"
       ],
       "settings": {
-        "foreground": "#82AAFF"
+        "foreground": "#fad900"
       }
     },
     {
       "name": "Block Level Variables",
       "scope": ["meta.block variable.other"],
       "settings": {
-        "foreground": "#f07178"
+        "foreground": "#efefef"
       }
     },
     {
@@ -110,7 +133,7 @@
         "keyword.other"
       ],
       "settings": {
-        "foreground": "#F78C6C"
+        "foreground": "#efefef"
       }
     },
     {
@@ -125,7 +148,7 @@
         "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
       ],
       "settings": {
-        "foreground": "#C3E88D"
+        "foreground": "#c8c8c8"
       }
     },
     {
